@@ -20,7 +20,7 @@ export default function SignUp() {
           </p>
         </div>
         {/* right side */}
-        <div className="">
+        <div className="flex-1">
           <form className="flex flex-col gap-4">
             <div className="">
               <Label value="Your username" />
