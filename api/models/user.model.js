@@ -1,6 +1,6 @@
-import mongoose from "mongoose";
+import { mongoose } from "mongoose";
 
-const userSchema = new MongoServerError.Schema({
+const userSchema = new mongoose.Schema({
     username: {
         type: String,
         required: true,
